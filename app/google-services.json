@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "52579121113",
+    "firebase_url": "https://beerking-fcc79.firebaseio.com",
+    "project_id": "beerking-fcc79",
+    "storage_bucket": "beerking-fcc79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52579121113:android:8d4cafec5f3f1380",
+        "android_client_info": {
+          "package_name": "com.iesb.tcc.beerking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52579121113-uplqqt5vbl9m15a60mr0hb2ekn23cn1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZU8osNRiQcS7GRN5DBZsp05aBRKmRy9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52579121113-uplqqt5vbl9m15a60mr0hb2ekn23cn1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

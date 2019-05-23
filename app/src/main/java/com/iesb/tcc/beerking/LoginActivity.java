@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,7 +23,9 @@ public class LoginActivity extends AppCompatActivity {
 
     private String loginEmail, loginSenha;
     private EditText edtEmail, edtSenha;
-    private Button btnLogin, btnCadastrar;
+    private Button btnLogin;
+
+    private TextView txtCadastrar;
 
 
 
@@ -80,15 +83,13 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        btnCadastrar.setOnClickListener(new View.OnClickListener() {
+        txtCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent cadastrar = new Intent(LoginActivity.this, CadastrarActivity.class);
-                startActivity(cadastrar);
+                Intent cadastrar2 = new Intent(LoginActivity.this, CadastrarActivity.class);
+                startActivity(cadastrar2);
             }
         });
-
-
 
     }
 
@@ -108,7 +109,8 @@ public class LoginActivity extends AppCompatActivity {
         edtSenha = (EditText) findViewById(R.id.login_senha);
 
         btnLogin = (Button) findViewById(R.id.btnLogin);
-        btnCadastrar = (Button) findViewById(R.id.btnCadastrar);
+
+        txtCadastrar = (TextView) findViewById(R.id.txtCadastrar);
     }
 
 
